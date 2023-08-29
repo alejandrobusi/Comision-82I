@@ -1,0 +1,60 @@
+
+.imgNav {
+  padding: 10px;
+}
+
+.imgLogo {
+  width: 120px;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+ 
+  background-color: tomato;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+/* #basis {
+  flex-basis: 400px;
+} */
+
+/* .grow1 {
+  flex-grow: 2;
+}
+
+.grow2 {
+  flex-grow: 1;
+}
+
+.grow3 {
+  flex-grow: 3;
+} */
+
+/* .shrink1 {
+  flex-shrink: 3;
+}
+
+.shrink2 {
+  flex-shrink: 4;
+}
+
+.shrink3 {
+  flex-shrink: 4;
+} */

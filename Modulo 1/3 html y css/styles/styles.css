@@ -1,0 +1,58 @@
+:root {
+  --colorPrincipal : rgba(97, 231, 255, 0.849);
+  --colorSecundario : #d01446;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: wheat !important;
+}
+
+body {
+  background-color: #d01446;
+}
+
+h1 {
+  color:  blue;
+}
+
+.myHeader {
+  background-color: var(--colorPrincipal);
+}
+
+
+#mainContainer {
+  background-color: black;
+  width: 600px;
+}
+
+.elMain {
+  background-color: blueviolet;
+}
+
+#mainContainer > h1:nth-child(3){
+  color: #d01446;
+  background-color: var(--colorPrincipal);
+}
+
+footer {
+  background-color: var(--colorPrincipal);
+}
+
+li {
+  /* background-color: var(--colorSecundario); */
+}
+
+nav > ul > li {
+  background-color: var(--colorSecundario);
+  display: inline;
+}
+
+p {
+  font-size: 3rem;
+}
+
+

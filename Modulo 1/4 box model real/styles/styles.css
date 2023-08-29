@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+.myDiv {
+  width: 300px;
+  height: 300px;
+  background-color: #cbb3b3;
+  border: 2px solid green;
+  margin: 50px 0 0 50px;
+  padding: 50px 0;
+}
+
+h2 {
+  background-color: yellowgreen;
+  padding: 20px 0;
+  display: inline;
+  margin: 0 30px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+/* 
+p {
+  padding: 20px 0;
+} */
+
+main {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+#divP {
+  background-color: cadetblue;
+  width: 200px;
+  height: 200px;
+}
+
+.testDiv {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+p {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.buttom {
+  margin: 60px;
+  text-decoration: none;
+  background-color: brown;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 3px solid black;
+  color: #fff;
+}
+

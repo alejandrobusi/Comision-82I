@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  background-color: #364552;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container article {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.25rem 0;
+  cursor: pointer;
+  margin: 2rem 0;  
+}
+
+img {
+  width: 598px;
+}
+
+section article p, section article h2 {
+  margin: 1rem;
+}
+
+footer {
+  background-color: #364552;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 2rem;
+}
+
+footer div a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 0.25rem;
+}
+
+article:hover {
+  box-shadow: 9px 8px 34px -5px rgba(0,0,0,0.72);
+}

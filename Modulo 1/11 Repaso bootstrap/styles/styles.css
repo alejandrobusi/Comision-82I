@@ -1,0 +1,35 @@
+main {
+  background-color: #e6e6e6;
+}
+
+.containerHero {
+  margin-top: 110px;
+}
+
+.imgHero {
+  width: 300px;
+}
+
+.textHero {
+  border-bottom: 4px solid yellow;
+  display: inline-block;
+  text-align: center;
+}
+
+.imgCard {
+  width: 220px;
+}
+
+main section:nth-child(2) {
+  background-color: black;
+}
+
+.icon {
+  filter: invert(100%);
+  opacity: 0.6;
+  width: 50px;
+}
+
+.bgCard {
+  background-color: #232323;
+}

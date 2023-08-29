@@ -1,0 +1,31 @@
+p {
+  border: 3px solid blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+main p:first-child {
+  /* margin-bottom: 100px;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px; */
+  /* padding: 20px;
+   */
+  /* margin: 10px 15px 20px 5px; */
+  margin: 20px 10px;
+}
+
+main p:last-child {
+  /* padding: 20px; */
+  /* padding: 10px 15px 20px 5px;
+   */
+  padding: 20px 10px;
+}
+
+button {
+  margin: 0px auto;
+  padding: 6px 10px;
+  
+}

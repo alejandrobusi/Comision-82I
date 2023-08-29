@@ -1,0 +1,33 @@
+div {
+  background-color: blue;
+}
+
+#divDos {
+  background-color: tomato;
+}
+
+.divFooter {
+  height: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer > div > a {
+  text-decoration: none;
+}
+
+section > #divDos {
+  background: #000;
+}
+
+p:hover {
+  background-color: #fff;
+  font-size: 30px;
+}
+
+a:active {
+  border: 1px solid rgb(255, 252, 252);
+  border-radius: 50%;
+  padding: 10px;
+}

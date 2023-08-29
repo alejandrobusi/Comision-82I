@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <header class="text-center">
+    <nav class="navbar bg-dark border-bottom border-bottom-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="bg-warning col-12 col-md-12 col-lg-4 p-4 mb-3">
+          <button type="button" class="btn btn-success position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              5
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto vitae repellendus atque vel deleniti distinctio minima amet rem autem, a ratione eos expedita dicta officia, quasi molestiae optio ad provident!
+        Placeat voluptatum animi velit saepe fugiat, nesciunt est repudiandae non modi unde delectus illum magni nam explicabo ab hic accusamus ut vel, molestias, obcaecati similique excepturi vitae aut libero. Dicta.
+        Tempora, asperiores voluptatem vero sint consequatur nostrum debitis? Quod blanditiis soluta fuga eveniet? Tenetur, adipisci numquam, explicabo qui recusandae veniam molestias velit, officia eius id quibusdam esse iusto voluptate quis.</div>
+        <div class="bg-primary col-12 col-md-12 col-lg-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum repellendus praesentium, aut laudantium debitis labore ipsam culpa perspiciatis quasi totam distinctio corporis aliquam voluptates quia dolores delectus excepturi quo.
+        Optio voluptatem porro eius. Laudantium obcaecati nemo neque, accusamus enim, libero debitis quos recusandae rem placeat repudiandae beatae tempora. Ex repellendus similique voluptatem porro amet tempore, et blanditiis unde ab.
+        Delectus laboriosam, praesentium velit nobis aperiam culpa? Similique accusamus deleniti vitae praesentium reprehenderit dolores nesciunt atque optio dicta quod? Aperiam laboriosam exercitationem culpa quibusdam omnis incidunt dolore harum iusto sint.</div>
+        <div class="bg-secondary col-12 col-md-12 col-lg-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolor quidem omnis dignissimos dolore impedit, ut facilis mollitia quam itaque praesentium et alias harum beatae! Corrupti qui praesentium aspernatur voluptas.
+        Voluptas laudantium mollitia laboriosam dolorum veniam, blanditiis, quo architecto nam similique quasi labore soluta, in molestiae unde distinctio beatae aperiam voluptatibus aspernatur. Perferendis error inventore consequatur quam, magnam nobis similique.
+        Id, dignissimos. Vitae repellendus tempore dolorem quaerat dolores vel possimus doloribus minus illo necessitatibus unde perspiciatis distinctio aliquam, iste quia excepturi iusto. Soluta dolor et, perspiciatis molestias ducimus officiis harum!</div>
+      </div>
+      <div class="col-5">
+        <!-- Button trigger modal -->
+        
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <fieldset >
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card" style="width: 18rem;">
+          <img src="https://http2.mlstatic.com/D_Q_NP_799201-MLA53225161517_012023-AB.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Samsung A04</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <div class="d-none d-md-flex">
+      <div class="bg-success ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio expedita, repellendus repellat quis impedit voluptate. Voluptatum facilis rerum, enim nesciunt esse laudantium sunt! Accusamus sit autem aspernatur amet animi impedit!</div>
+      <div class="bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis reiciendis beatae quia animi repellendus quidem cupiditate? Aut et libero, saepe explicabo, eos unde rem minima dolorum laboriosam quidem distinctio.</div>
+      <div class="bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis reiciendis beatae quia animi repellendus quidem cupiditate? Aut et libero, saepe explicabo, eos unde rem minima dolorum laboriosam quidem distinctio.</div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
