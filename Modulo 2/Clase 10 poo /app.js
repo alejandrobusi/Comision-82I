@@ -138,3 +138,11 @@ personaB.name = 'test';
 
 console.log(personaA);
 console.log(personaB);
+
+// objetos globales
+console.log(Math);
+const fecha = new Date();
+console.log(fecha.getDate());
+console.log(fecha.getDay());
+console.log(fecha.getFullYear());
+console.log(fecha.getHours());
